@@ -1,0 +1,27 @@
+
+CREATE TABLE Clubs (ClubID INT PRIMARY KEY NOT NULL,
+                   ClubName VARCHAR NOT NULL,
+                   StadiumName VARCHAR NOT NULL,
+                    TopScorer VARCHAR NOT NULL,
+                   Region VARCHAR NOT NULL);
+INSERT INTO Clubs VALUES(1,'Arsenal','Emirates Stadium','Thierry Henry','London'),
+			(2,'Aston Villa','Villa Park','Gabriel Agbonlahor','Birmingham'),
+                        (3,'Bournemouth','Vitality Stadium','Joshua King','Bournemouth'),
+                        (4,'Brighton & Hove Albion','Amex Stadium','Glenn Murray','Birmingham'),
+                        (5,'Burnley','Turf Moor','Ashley Barnes','Burnley'),
+                        (6,'Chelsea','Stamford Bridge','Frank Lampard','London'),
+                        (7,'Crystal Palace','Selhurst Park','Wilfred Zaha','London'),
+                        (8,'Everton','Goodison Park','Romelu Lukaku','Liverpool'),
+                        (9,'Leicester City','King Power Stadium','Jaime Vardy','Leicester'),
+                        (10,'Liverpool','Anfield','Robbie Fowler','Liverpool'),
+                        (11,'Manchester City','Etihad Stadium','Sergio Aguero','Manchester'),
+                        (12,'Manchester United','Old Trafford','Wayne Rooney','Manchester'),
+                        (13,'Newcastle United',"St. James' Park",'Alan Shearer','Newcastle'),
+                        (14,'Norwich City','Carrow Road','Chris Sutton','Norwich'),
+                        (15,'Sheffield United','Bramall Lane','Brian Deane','Sheffield'),
+                        (16,'Southampton',"St. Mary's Stadium",'Matt Le Tissier','Southampton'),
+                        (17,'Tottenham Hotspur','Tottenham Hotspur Stadium','Harry Kane','London'),
+                        (18,'Watford','Vicarage Road','Troy Deene','Watford'),
+                        (19,'West Ham United','London Stadium','Paolo Di Canio','London'),
+                        (20,'Wolverhampton Wanderers','Molineux Stadium','Steven Fletcher','Wolverhampton');
+SELECT * FROM Clubs;
